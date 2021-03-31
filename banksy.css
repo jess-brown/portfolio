@@ -1,5 +1,6 @@
 
-
+@media screen and (min-width: 501px) {
+	
 body {
 	max-width: 1920px;
 	margin-right: auto;
@@ -60,7 +61,7 @@ p {
 	height: 260px;
 	background-size: cover;
 }
-
+}
 
 @media screen and (max-width: 500px) {
 
