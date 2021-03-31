@@ -1,0 +1,136 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	max-width: 1900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	font-size: 27pt;
+	font-weight: 700;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: black;
+	margin-top: 90px;
+	margin-left: 180px;
+}
+
+p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: black;
+	font-size: 11pt;
+	column-count: 2;
+
+}
+
+#headline {
+	width: 1400px; 
+	height: 150px;  
+	float: left;
+}
+
+#containerScreen {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 1400px; 
+	height: 800px;
+}
+
+#image {
+	float: left;
+	margin-left: 180px;
+	background-image: url(assets/little\ boy\ vertical.jpg);
+	width: 200px;
+	height: 350px;
+	background-size: cover;
+}
+
+#textBox {
+	width: 430px; 
+	height: 370px;  
+	float: left;
+	margin-left: 30px;
+	margin-right: 300px;
+}
+
+#map {
+	float: left;
+	margin-left: 180px;
+	background-image: url(assets/map.PNG);
+	width: 660px;
+	height: 260px;
+	background-size: cover;
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+	body {
+		max-width: 400px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#containerScreen {
+		margin-left: auto; 
+		margin-right: auto;
+		width: 375px; 
+		height: 900px;
+	}
+
+	#image {
+		float: left;
+		margin-left: 30px;
+		background-image: url(assets/little\ boy\ horizontal.jpg);
+		width: 300px;
+		height: 220px;
+		background-size: cover;
+	}
+
+	#headline {
+		width: 100%; 
+		height: 100px;  
+		float: left;
+	}
+
+	h1 {
+		font-size: 20pt;
+		font-weight: 700;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		color: black;
+		margin-top: 60px;
+		margin-left: 30px;
+	}
+
+	p {
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		color: black;
+		font-size: 9pt;
+		column-count: 1;
+	
+	}
+
+	#textBox {
+		width: 300px; 
+		height: 330px;  
+		float: left;
+		margin-left: 30px;
+	}
+
+	#map {
+		float: left;
+		margin-left: 30px;
+		background-image: url(assets/map.PNG);
+		width: 300px;
+		height: 140px;
+		background-size: cover;
+	}
+
+
+
+
+}
