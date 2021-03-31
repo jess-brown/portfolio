@@ -1,5 +1,11 @@
 
 
+body {
+	max-width: 1920px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 h1 {
 	font-size: 27pt;
 	font-weight: 700;
@@ -58,6 +64,12 @@ p {
 
 @media screen and (max-width: 500px) {
 
+	body {
+		max-width: 400px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
 	#containerScreen {
 		margin-left: auto; 
 		margin-right: auto;
