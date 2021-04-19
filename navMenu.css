@@ -1,0 +1,110 @@
+
+body {
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#containerIPad {
+	margin-top: 117px;
+	margin-left: auto; 
+	margin-right: auto;
+	width: 768px; 
+	height: 907px; 
+	background-color: #E2EBF3; 
+}
+
+#boxMasthead {
+	width: 768px; 
+	height: 150px;  
+	background-color: #D1E5F6;
+	float: left;
+}
+
+#box70 {
+	width: 70px; 
+	height: 64px;  
+	float: left;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+#box350 {
+	width: 200px; 
+	height: 200px;  
+	float: left;
+	margin-left: 50px;
+}
+
+#box350Left {
+	width: 200px; 
+	height: 200px;  
+	float: left;
+	margin-left: 165px;
+}
+
+#box70:hover {
+	width: 70px; 
+	height: 64px;  
+	float: left;
+	margin-top: 50px;
+	margin-left: 30px;
+	background-image: url("assets/home.png") no-repeat;
+}
+
+#boxName {
+	width: 105px; 
+	height: 33px;  
+	float: left;
+	margin-top: 68px;
+	margin-left: 30px;
+}
+
+
+#boxMouse {
+	width: 33px; 
+	height: 69px;  
+	float: left;
+	margin-top: 45px;
+	margin-left: 80px;
+}
+
+#boxBreak {
+	width: 768px; 
+	height: 100px;  
+	float: left;
+}
+
+#icons {
+	margin-top: 50px;
+	margin-left: auto; 
+	margin-right: auto;
+	width: 768px; 
+	height: 570px; 
+	background-color: #E2EBF3; 
+	overflow: scroll;
+}
+
+h1 {
+	font-size: 30;
+	font-weight: 600;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #F26228;
+	margin-left: 165px;
+}
+
+li {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #46638A;
+	margin-left: 145px;
+}
+
+a {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #46638A;
+}
+
+a:hover {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #A0AEC2;
+}
